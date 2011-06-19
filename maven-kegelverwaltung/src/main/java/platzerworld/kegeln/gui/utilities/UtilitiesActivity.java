@@ -58,11 +58,11 @@ public class UtilitiesActivity extends Activity {
 		Button reseDBButton = (Button) findViewById(R.id.resetDB);
 		reseDBButton.setOnClickListener(mResetDBListener);
 		
-		Button deleteTableButton = (Button) findViewById(R.id.deleteTable);
-		deleteTableButton.setOnClickListener(mDeleteTableListener);
+		//Button deleteTableButton = (Button) findViewById(R.id.deleteTable);
+		//deleteTableButton.setOnClickListener(mDeleteTableListener);
 		
-		Button createTableButton = (Button) findViewById(R.id.createTable);
-		createTableButton.setOnClickListener(mCreateTableListener);
+		//Button createTableButton = (Button) findViewById(R.id.createTable);
+		//createTableButton.setOnClickListener(mCreateTableListener);
 		
 		Button deleteDataButton = (Button) findViewById(R.id.deleteData);
 		deleteDataButton.setOnClickListener(mDeleteDataListener);
